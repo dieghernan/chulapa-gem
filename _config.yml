@@ -145,9 +145,8 @@ googlefonts:
 chulapa-skin: 
   highlight     :  # default["default"]
   skin         :  monotone # Optional predefined skins
-  autothemer    :  true # Bool: Use autotheming
-  vars          :    
-    primary     : "#ffbe98" #default ["#007bff"] - Bootstrap blue
+  autothemer    :  false # Bool: Use autotheming
+  
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
