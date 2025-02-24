@@ -1,5 +1,5 @@
 source 'https://rubygems.org'	
-gem "jekyll", "3.10.0"
+gem "jekyll", '~> 4.4'
 gem "chulapa-jekyll", '~> 2.0'
 
 group :jekyll_plugins do
