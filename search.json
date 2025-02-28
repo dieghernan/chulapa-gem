@@ -1,14 +1,18 @@
 ---
 layout: null
 ---
+
+{%- assign docindex = site.pages | concat: site.documents -%}
+
 [
-  {% for post in site.posts %}
+  {% for post in docindex %}
     {
 
       "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{ post.categories | join: ', '}}",
-      "date"     : "{{ post.date | date: "%B %e, %Y" }}"
+      "url"      : "{{ post.url | absolute_url }}",
+      "tag" : "{{ post.tags | join: ', '}}",
+      "date"     : "{{ post.date | date: "%B %e, %Y" }}",
+      "img": "{{ post.og_image | default: post.header_img | absolute_url }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
