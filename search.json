@@ -11,7 +11,7 @@ layout: null
 
       "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",
       "subtitle"    : "{{ post.subtitle | escape }}",
-      "excerpt": '{{ post.content | newline_to_br |
+      "excerpt": {{ post.content | newline_to_br |
               replace:"<br />", " " |
               replace:"</p>", " " |
               replace:"</h1>", " " |
@@ -20,7 +20,7 @@ layout: null
               replace:"</h4>", " " |
               replace:"</h5>", " " |
               replace:"</h6>", " "|
-            strip_html | strip_newlines | truncatewords: maxwords }}',
+            strip_html | strip_newlines | truncatewords: maxwords | jsonify }},
       "url"      : "{{ post.url | absolute_url }}",
       "tag" : "{{ post.tags | join: ', '}}",
       "date"     : "{{ post.date | date: "%B %e, %Y" }}",
