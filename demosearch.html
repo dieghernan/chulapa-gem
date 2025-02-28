@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-02-28 18:53:48 +0000 -->
+    <!-- Page build 2025-02-28 19:02:49 +0000 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "Demo search",
       "image": "",
-      "datePublished": "2025-02-28T18:53:48+00:00",
-      "dateModified": "2025-02-28T18:53:48+00:00",
+      "datePublished": "2025-02-28T19:02:49+00:00",
+      "dateModified": "2025-02-28T19:02:49+00:00",
       "author": {
         "@type": "Person",
         "name": "Your Name"
@@ -157,10 +157,13 @@
 		<div class="row pt-2">
 			<aside class="col-lg-2 mt-lg-3 small"></aside>
 			<article id="maincontent" class="col-lg-8 mt-3 e-content">
-			<div id="search-container">
-    <input type="text" id="search-input" placeholder="Search through the blog posts..." />
-   <ul id="results-container"></ul>
-</div>
+			 <form class="input-group">
+    <label class="sr-only" for="search"> Search </label>
+    <input type="search" id="search-input" class="form-control rounded-right" placeholder="Search..." />
+</form>
+<p class="text-right small mt-1"> Powered by <a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple-Jekyll-Search</a></p>
+
+<div id="results-container" class="mt-3 text-left"></div>
 
 <script src="https://dieghernan.github.io/chulapa-gem/assets/simple-jekyll-search.min.js" type="text/javascript"></script>
 
