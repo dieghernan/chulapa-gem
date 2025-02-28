@@ -15,21 +15,7 @@ permalink: /demosearch
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate:                     '<article class="my-2 text-left">' 	+
-                    '<div class="row">'	+
-                    '<div class="col">' +
-                    '<h5 class="chulapa-links-hover-only" itemprop="headline">' +
-                    '<a href="{url}" rel="permalink">{title}</a>' +
-                    '</h5>' +
-                    '</div>'		+
-                    '</div>'		+
-                    '<div class="row mt-2">' +
-                    '<div class="col">' +
-                    '<p>{excerpt}</p>' +
-					'</div>' +
-					'</div>' +
-					'<hr>' +
-					'</article>';,
-    json: '{{ "search.json" | absolute_url }}' 
+    searchResultTemplate: '<article class="my-2 text-left"><div class="row"><div class="col"><h5 class="chulapa-links-hover-only" itemprop="headline"><a href="{url}" rel="permalink">{title}</a></h5></div></div><div class="row mt-2"><div class="col"><p>{excerpt}</p></div></div><hr></article>',
+    json: '{{ "/assets/search.json" | absolute_url }}' 
     });
 </script>
