@@ -2,98 +2,380 @@
   
     {
 
+      "title"    : "404",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/404.html",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Archive",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/archive",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Categories",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/categories",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Categories",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/categories2",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Cheatsheets",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/cheatsheets",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
       "title"    : "Current skin",
-      "url"      : "/chulapa-gem/20201231_current-skin/",
-      "category" : "skins",
-      "date"     : "December 31, 2020"
+      "url"      : "https://dieghernan.github.io/chulapa-gem/current-skin",
+      "tag" : "skin, bootstrap, current-theme, header-hero, image",
+      "date"     : "March  3, 2015",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "The Acueduct of Segovia",
-      "url"      : "/chulapa-gem/20191127_acueduct-of-segovia/",
-      "category" : "picture",
-      "date"     : "November 27, 2019"
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/css/custom.css",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "A landing page",
-      "url"      : "/chulapa-gem/20190803_landing-page/",
-      "category" : "landing-page",
-      "date"     : "August  3, 2019"
+      "title"    : "Demo search",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/demosearch",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Dean Village",
-      "url"      : "/chulapa-gem/20190502_dean-village/",
-      "category" : "picture",
-      "date"     : "May  2, 2019"
+      "title"    : "Blog",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/blog/",
+      "tag" : "",
+      "date"     : "",
+      "img": "https://dieghernan.github.io/chulapa-gem/assets/img/site/banner-blog.png"
     } ,
   
     {
 
-      "title"    : "Urban art",
-      "url"      : "/chulapa-gem/20181109_urban_art/",
-      "category" : "picture",
-      "date"     : "November  9, 2018"
+      "title"    : "Chulapa on remote",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Flake it till you make it",
-      "url"      : "/chulapa-gem/20150226_flake-it-till-you-make-it/",
-      "category" : "",
-      "date"     : "February 26, 2015"
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/search.json",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Test markdown",
-      "url"      : "/chulapa-gem/20150220_test-markdown/",
-      "category" : "",
-      "date"     : "February 20, 2015"
+      "title"    : "Search",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/search.html",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "To be",
-      "url"      : "/chulapa-gem/20150213_hamlet-monologue/",
-      "category" : "",
-      "date"     : "February 13, 2015"
+      "title"    : "Tags",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/tags",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Dear diary",
-      "url"      : "/chulapa-gem/20150127_dear-diary/",
-      "category" : "",
-      "date"     : "January 27, 2015"
+      "title"    : "Tags",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/tags2",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Soccer",
-      "url"      : "/chulapa-gem/20150119_soccer/",
-      "category" : "",
-      "date"     : "January 19, 2015"
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/atom.xml",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
-      "title"    : "Pirates arrrr",
-      "url"      : "/chulapa-gem/20150115_pirates/",
-      "category" : "",
-      "date"     : "January 15, 2015"
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/css/highlighter.css",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/css/main.css",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/css/welcomments.css",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/js/algolia/algolia-search.js",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/js/google/google-search.js",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/js/lunr/lunr-search.js",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/js/lunr/lunr-store.js",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/rss.xml",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/sitemap.xml",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/robots.txt",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Blog",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/blog/page2/",
+      "tag" : "",
+      "date"     : "",
+      "img": "https://dieghernan.github.io/chulapa-gem/assets/img/site/banner-blog.png"
+    } ,
+  
+    {
+
+      "title"    : "Blog",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/blog/page3/",
+      "tag" : "",
+      "date"     : "",
+      "img": "https://dieghernan.github.io/chulapa-gem/assets/img/site/banner-blog.png"
+    } ,
+  
+    {
+
+      "title"    : "",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/assets/css/custom.css.map",
+      "tag" : "",
+      "date"     : "",
+      "img": ""
     } ,
   
     {
 
       "title"    : "First post!",
-      "url"      : "/chulapa-gem/20150104_first-post/",
-      "category" : "",
-      "date"     : "January  4, 2015"
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150104_first-post/",
+      "tag" : "random, exciting-stuff",
+      "date"     : "January  4, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Pirates arrrr",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150115_pirates/",
+      "tag" : "pirates, random, wikipedia",
+      "date"     : "January 15, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Soccer",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150119_soccer/",
+      "tag" : "random, exciting-stuff, wikipedia",
+      "date"     : "January 19, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Dear diary",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/",
+      "tag" : "random, diary, school, manuscript",
+      "date"     : "January 27, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "To be",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/",
+      "tag" : "wikipedia, manuscript",
+      "date"     : "February 13, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Test markdown",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/",
+      "tag" : "markdown, exciting-stuff",
+      "date"     : "February 20, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Flake it till you make it",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/",
+      "tag" : "random, manuscript",
+      "date"     : "February 26, 2015",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "Urban art",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20181109_urban_art/",
+      "tag" : "urban art, street, downtown, image",
+      "date"     : "November  9, 2018",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Madrid_-_Graffiti_11.jpg/407px-Madrid_-_Graffiti_11.jpg"
+    } ,
+  
+    {
+
+      "title"    : "Dean Village",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20190502_dean-village/",
+      "tag" : "landscape, trips, downtown, edinburgh, kramdown, bootstrap, wikipedia, demo, image",
+      "date"     : "May  2, 2019",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg"
+    } ,
+  
+    {
+
+      "title"    : "A landing page",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20190803_landing-page/",
+      "tag" : "example, demo, layout, guest-author, image",
+      "date"     : "August  3, 2019",
+      "img": "https://dieghernan.github.io/chulapa/assets/img/site/transparent.png"
+    } ,
+  
+    {
+
+      "title"    : "The Acueduct of Segovia",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/",
+      "tag" : "landscape, trips, downtown, project-links, wikipedia, image",
+      "date"     : "November 27, 2019",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG"
+    } ,
+  
+    {
+
+      "title"    : "Current skin",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/20201231_current-skin/",
+      "tag" : "skin, bootstrap, current-theme, header-hero, image, demo",
+      "date"     : "December 31, 2020",
+      "img": "https://picsum.photos/id/1018/2000/2000"
+    } ,
+  
+    {
+
+      "title"    : "Markdown cheatsheet",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet",
+      "tag" : "starter, syntax, markdown",
+      "date"     : "February 28, 2025",
+      "img": ""
+    } ,
+  
+    {
+
+      "title"    : "kramdown cheatsheet",
+      "url"      : "https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet",
+      "tag" : "starter, syntax, kramdown",
+      "date"     : "February 28, 2025",
+      "img": ""
     } 
   
 ]
