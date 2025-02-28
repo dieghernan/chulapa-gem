@@ -1,0 +1,153 @@
+[
+  
+    {
+      "title"    : ""Archive"",
+      "subtitle": "null",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/chulapa-gem/archive",
+      "img": "null",
+      "date"     : ""
+    } ,
+  
+    {
+      "title"    : ""First post!"",
+      "subtitle": "null",
+      "category" : "",
+      "tags"     : "random, exciting-stuff",
+      "url"      : "/chulapa-gem/20150104_first-post/",
+      "img": "null",
+      "date"     : "2015-01-04 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Pirates arrrr"",
+      "subtitle": "null",
+      "category" : "",
+      "tags"     : "pirates, random, wikipedia",
+      "url"      : "/chulapa-gem/20150115_pirates/",
+      "img": "null",
+      "date"     : "2015-01-15 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Soccer"",
+      "subtitle": ""Best sport ever!"",
+      "category" : "",
+      "tags"     : "random, exciting-stuff, wikipedia",
+      "url"      : "/chulapa-gem/20150119_soccer/",
+      "img": "null",
+      "date"     : "2015-01-19 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Dear diary"",
+      "subtitle": "null",
+      "category" : "",
+      "tags"     : "random, diary, school, manuscript",
+      "url"      : "/chulapa-gem/20150127_dear-diary/",
+      "img": "null",
+      "date"     : "2015-01-27 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""To be"",
+      "subtitle": ""... or not to be?"",
+      "category" : "",
+      "tags"     : "wikipedia, manuscript",
+      "url"      : "/chulapa-gem/20150213_hamlet-monologue/",
+      "img": "null",
+      "date"     : "2015-02-13 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Test markdown"",
+      "subtitle": ""Each post also has a subtitle"",
+      "category" : "",
+      "tags"     : "markdown, exciting-stuff",
+      "url"      : "/chulapa-gem/20150220_test-markdown/",
+      "img": "null",
+      "date"     : "2015-02-20 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Flake it till you make it"",
+      "subtitle": ""Excerpt from Soulshaping by Jeff Brown"",
+      "category" : "",
+      "tags"     : "random, manuscript",
+      "url"      : "/chulapa-gem/20150226_flake-it-till-you-make-it/",
+      "img": "null",
+      "date"     : "2015-02-26 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Urban art"",
+      "subtitle": ""Creativity is everywhere"",
+      "category" : "",
+      "tags"     : "urban art, street, downtown, image",
+      "url"      : "/chulapa-gem/20181109_urban_art/",
+      "img": "null",
+      "date"     : "2018-11-09 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Dean Village"",
+      "subtitle": "null",
+      "category" : "",
+      "tags"     : "landscape, trips, downtown, edinburgh, kramdown, bootstrap, wikipedia, demo, image",
+      "url"      : "/chulapa-gem/20190502_dean-village/",
+      "img": "null",
+      "date"     : "2019-05-02 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""A landing page"",
+      "subtitle": ""With image header"",
+      "category" : "",
+      "tags"     : "example, demo, layout, guest-author, image",
+      "url"      : "/chulapa-gem/20190803_landing-page/",
+      "img": "null",
+      "date"     : "2019-08-03 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""The Acueduct of Segovia"",
+      "subtitle": ""20 centuries ago"",
+      "category" : "",
+      "tags"     : "landscape, trips, downtown, project-links, wikipedia, image",
+      "url"      : "/chulapa-gem/20191127_acueduct-of-segovia/",
+      "img": "null",
+      "date"     : "2019-11-27 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Current skin"",
+      "subtitle": ""Showing al the different Bootstrap components available"",
+      "category" : "",
+      "tags"     : "skin, bootstrap, current-theme, header-hero, image, demo",
+      "url"      : "/chulapa-gem/20201231_current-skin/",
+      "img": "null",
+      "date"     : "2020-12-31 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : ""Markdown cheatsheet"",
+      "subtitle": ""The basic syntax of your page"",
+      "category" : "",
+      "tags"     : "starter, syntax, markdown",
+      "url"      : "/chulapa-gem/cheatsheets/01-markdown-cheat-sheet",
+      "img": "null",
+      "date"     : "2025-02-28 17:40:30 +0000"
+    } ,
+  
+    {
+      "title"    : ""kramdown cheatsheet"",
+      "subtitle": ""Beyond Markdown"",
+      "category" : "",
+      "tags"     : "starter, syntax, kramdown",
+      "url"      : "/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet",
+      "img": "null",
+      "date"     : "2025-02-28 17:40:30 +0000"
+    } 
+  
+]
