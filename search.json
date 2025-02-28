@@ -1,0 +1,19 @@
+---
+layout: none
+---
+
+{%- assign alldocs = site.pages | concat: site.documents |  where_exp:'doc','doc.include_on_search != false' -%}
+
+[
+  {% for post in alldocs %}
+    {
+      "title"    : "{{ post.title | escape | jsonify }}",
+      "subtitle": "{{ post.subtitle | jsonify }}",
+      "category" : "{{ post.category | join: ', ' }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "img": "{{ post.og_image | default: doc.header_img | absolute_url | jsonify }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
