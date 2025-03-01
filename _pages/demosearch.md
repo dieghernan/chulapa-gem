@@ -13,13 +13,35 @@ permalink: /demosearch
 
 <div id="results-container" class="mt-3 text-left"></div>
 
-<script src="{{ 'assets/simple-jekyll-search.min.js' | absolute_url }}" type="text/javascript"></script>
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 
 <script>
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: '<article class="my-2 text-left"><div class="row"><div class="col"><h5 class="chulapa-links-hover-only" itemprop="headline"><a href="{url}" rel="permalink">{title}</a></h5></div></div><div class="row mt-2"><div class="col"><p>{excerpt}</p></div></div><hr></article>',
+    searchResultTemplate:   '<article class="my-2 text-left">' 	+
+                    '<div class="row">'	+
+                    '<div class="col">' +
+                    '<h5 class="chulapa-links-hover-only" itemprop="headline">' +
+                    '<a href="{url}" rel="permalink">{title}</a>' +
+                    '</h5>' +
+                    '</div>'		+
+					'<div class="col-4 col-md-3">' +
+					'<a href="{url}" rel="permalink">' +
+					'<div class="rounded-lg chulapa-overlay-img chulapa-gradient chulapa-min-h-10"'+
+					'style="background-image:' +
+					'url(\'{img}\')" ></div>' +
+					'</div></a>' +
+                    '</div>' +		
+                    '<div class="row mt-2">' +
+                    '<div class="col">' +
+                    '<p>{excerpt}</p>' +
+					'</div>' +
+					'</div>' +
+					'<hr>' +
+					'</article>'
+	
+	,
     json: '{{ "/assets/search.json" | absolute_url }}' 
     });
 </script>
