@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en-US"><head>
    <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - 2.0.1 -->
+    <!-- Chulapa Jekyll Theme - v2.0.1.0001 -->
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-03-01 21:28:58 +0000 -->
+    <!-- Page build 2025-03-01 21:49:10 +0000 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "kramdown cheatsheet",
       "image": "",
-      "datePublished": "2025-03-01T21:28:58+00:00",
-      "dateModified": "2025-03-01T21:28:58+00:00",
+      "datePublished": "2025-03-01T21:49:10+00:00",
+      "dateModified": "2025-03-01T21:49:10+00:00",
       "author": {
         "@type": "Person",
         "name": "Your Name"
@@ -97,9 +97,7 @@
    <meta property="og:image" content="" >
     <!-- Twitter/X Cards -->
    <meta name="twitter:card" content="summary_large_image"><!-- start custom head snippets -->
-
 <!-- this script is inserted before the css stylesheet -->
-
 <!-- end custom head snippets -->
 <!-- CSS -->
     <!-- Preconnect with Google Fonts -->
@@ -117,9 +115,7 @@
     <!-- Custom css -->
   <link rel="stylesheet" href="https://dieghernan.github.io/chulapa-gem/assets/css/custom.css" >
       <!-- start custom head snippets -->
-
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-
 <!-- end custom head snippets -->
 </head>
 <body class="d-flex flex-column h-entry" id="body">
@@ -178,13 +174,9 @@
 			<aside class="col-lg-2 mt-lg-3 small"></aside>
 			<article id="maincontent" class="col-lg-8 mt-3 e-content">
 			<h2 id="whats-kramdown">What’s kramdown?</h2>
-
 <p><strong>kramdown</strong> supercharges Markdown with some interesting features.</p>
-
 <p><strong>kramdown</strong> is the default Jekyll Markdown processor. When creating your site with Jekyll, you can use the standard Markdown syntax plus some specific <strong>kramdown</strong> syntax. Jekyll would render your Markdown/<strong>kramdown</strong> into <abbr title="Hyper Text Markup Language">HTML</abbr>.</p>
-
 <p><a href="https://kramdown.gettalong.org/quickref.html">https://kramdown.gettalong.org/quickref.html</a></p>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The first paragraph.
 
 Another paragraph
@@ -211,59 +203,39 @@ which contains a hard line break.
 <span class="gu">###### H6 header</span>
 
 </code></pre></div></div>
-
 <p>The first paragraph.</p>
-
 <p>Another paragraph</p>
-
 <p>This is a paragraph<br />
 which contains a hard line break.</p>
-
 <h1 id="first-level-header">First level header</h1>
-
 <h2 id="second-level-header">Second level header</h2>
-
 <h1 id="h1-header">H1 header</h1>
-
 <h2 id="h2-header">H2 header</h2>
-
 <h3 id="h3-header">H3 header</h3>
-
 <h4 id="h4-header">H4 header</h4>
-
 <h5 id="h5-header">H5 header</h5>
-
 <h6 id="h6-header">H6 header</h6>
-
 <h2 id="create-a-table-of-contents">Create a table of contents:</h2>
-
 <p>On your <code class="language-plaintext highlighter-rouge">_config.yaml</code>, define the levels of your toc:</p>
-
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">kramdown</span><span class="pi">:</span>
   <span class="s">...</span>
   <span class="s">toc_levels</span><span class="err">:</span> <span class="s">2..6</span>
 
 </code></pre></div></div>
-
 <p>Ignore specific headers:</p>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="gu">## This header would be ignored on the toc.</span>
 {:.no_toc}
 
 </code></pre></div></div>
-
 <h3 class="no_toc" id="this-header-would-be-ignored-on-the-toc">This header would be ignored on the toc.</h3>
-
 <p>Add this to generate table</p>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">
 *</span> This line is needed, but won't appear. Replace '<span class="err">*</span>' with '1' to create a numbered list.
 {:toc}<span class="sb">
 
 
 </span></code></pre></div></div>
-
 <ul id="markdown-toc">
  <li><a href="#whats-kramdown" id="markdown-toc-whats-kramdown">What’s kramdown?</a></li>
  <li><a href="#second-level-header" id="markdown-toc-second-level-header">Second level header</a></li>
@@ -283,7 +255,6 @@ which contains a hard line break.</p>
  <li><a href="#create-a-table-of-contents" id="markdown-toc-create-a-table-of-contents">Create a table of contents:</a></li>
  <li><a href="#headers-work-too" id="markdown-toc-headers-work-too">Headers work too</a></li>
 </ul>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; A sample blockquote.</span>
 <span class="gt">&gt;</span>
 <span class="gt">&gt; &gt;Nested blockquotes are</span>
@@ -303,16 +274,13 @@ and another term
 </code></pre></div></div>
 <blockquote>
  <p>A sample blockquote.</p>
-
  <blockquote>
    <p>Nested blockquotes are
 also possible.</p>
  </blockquote>
-
  <h2 id="headers-work-too">Headers work too</h2>
  <p>This is the outer quote again.</p>
 </blockquote>
-
 <dl>
  <dt>term</dt>
  <dd>definition</dd>
@@ -321,7 +289,6 @@ also possible.</p>
  <dt>and another term</dt>
  <dd>and a definition for the term</dd>
 </dl>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
@@ -334,7 +301,6 @@ also possible.</p>
 {: rules="groups"}
 
 </code></pre></div></div>
-
 <table rules="groups">
 <thead>
    <tr>
@@ -375,7 +341,6 @@ also possible.</p>
    </tr>
  </tfoot>
 </table>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a paragraph
 {::comment}
 This is a comment which is
@@ -389,20 +354,16 @@ This is a paragraph … paragraph continues here.
 
 Extensions can also be used inline <span class="gs">**see**</span>!
 </code></pre></div></div>
-
 <p>This is a paragraph
 <!-- 
 This is a comment which is
 completely ignored.
  -->
 … paragraph continues here.</p>
-
 <p>Extensions can also be used
 inline **see**!
 This is a paragraph … paragraph continues here.</p>
-
 <p>Extensions can also be used inline <strong>see</strong>!</p>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A <span class="p">[</span><span class="nv">link</span><span class="p">](</span><span class="sx">http://kramdown.gettalong.org</span> <span class="nn">"hp"</span><span class="p">)</span>
 to the homepage.
 
@@ -423,20 +384,14 @@ example.
 
 </span>This is <span class="gs">**Chulapa**</span>{:.chulapa} <span class="ge">*red*</span>{: style="color: red"}.
 </code></pre></div></div>
-
 <p>A <a href="http://kramdown.gettalong.org" title="hp">link</a>
 to the homepage.</p>
-
 <p id="myid" class="alert alert-info p-3 mx-2">A simple info alert <strong>check it out!</strong></p>
-
 <p>This is a text with a
 footnote<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
-
 <p>This is an <abbr title="Hyper Text Markup Language">HTML</abbr>
 example.</p>
-
 <p>This is <strong class="chulapa">Chulapa</strong> <em style="color: red">red</em>.</p>
-
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>This is the first part of a para,
 which is continued here.
 <span class="p">-</span>  List
@@ -444,7 +399,6 @@ which is continued here.
 <span class="nt">&lt;/div&gt;</span>
 
 </code></pre></div></div>
-
 <div>
  <p>This is the first part of a para,
 which is continued here.</p>
@@ -460,7 +414,6 @@ which is continued here.</p>
    </li>
  </ol>
 </div>
-
 			</article>
 		</div>
 	</main><nav aria-label="Navigation" class="container-lg chulapa-pagination  ">
@@ -505,7 +458,7 @@ which is continued here.</p>
               </span><span class="sr-only">RSS</span>
             </a></div><p class="mt-2 mb-3">&copy; 2025 Your Name</p>
           <!-- Do not remove this in order to give  attributions -->
-         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>Monotone</b> skin by <a href="https://themesguide.github.io/top-hat/dist/">Tophat</a></p>
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>Listen</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
@@ -518,9 +471,6 @@ which is continued here.</p>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/chulapa_script.js"></script>
 	<!-- start custom scripts to be placed at the bottom of the page -->
-
-
-
 <!-- end custom bottom scripts -->
 	</body>
 </html>
