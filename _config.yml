@@ -1,7 +1,7 @@
 github: [metadata]
 
-
-theme: chulapa-jekyll
+remote_theme: dieghernan/chulapa
+# theme: chulapa-jekyll
 
 # Find errors on this file with http://www.yamllint.com/
 
