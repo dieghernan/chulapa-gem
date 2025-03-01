@@ -21,9 +21,9 @@ layout: null
               replace:"</h5>", " " |
               replace:"</h6>", " "|
             strip_html | strip_newlines | truncatewords: maxwords | jsonify }},
-        "categories": {{ doc.categories | jsonify }},
+        "categories": {{ doc.categories | join: ', ' | jsonify }},
         "date": {{ doc.date | date: "%Y-%m-%d" | jsonify }},
-        "tags": {{ doc.tags | jsonify }},
+        "tags": {{ doc.tags | join: ', ' | jsonify }},
         "url": {{ doc.url | absolute_url | escape | jsonify }},
 	  {% if myimg -%}
 		"img": ":url('{{ myimg | absolute_url | escape }}')"
