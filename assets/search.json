@@ -10,7 +10,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/archive",
       "tag" : "",
       "date"     : "",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -21,7 +21,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150104_first-post/",
       "tag" : "random, exciting-stuff",
       "date"     : "January  4, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -32,7 +32,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150115_pirates/",
       "tag" : "pirates, random, wikipedia",
       "date"     : "January 15, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -43,7 +43,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150119_soccer/",
       "tag" : "random, exciting-stuff, wikipedia",
       "date"     : "January 19, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -54,7 +54,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/",
       "tag" : "random, diary, school, manuscript",
       "date"     : "January 27, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -65,7 +65,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/",
       "tag" : "wikipedia, manuscript",
       "date"     : "February 13, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -76,7 +76,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/",
       "tag" : "markdown, exciting-stuff",
       "date"     : "February 20, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -87,7 +87,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/",
       "tag" : "random, manuscript",
       "date"     : "February 26, 2015",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -153,7 +153,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet",
       "tag" : "starter, syntax, markdown",
       "date"     : "March  1, 2025",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } ,
   
     {
@@ -164,7 +164,7 @@
       "url"      : "https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet",
       "tag" : "starter, syntax, kramdown",
       "date"     : "March  1, 2025",
-	  "img": "https://dieghernan.github.io/chulapa-gem"
+	  "img": null
     } 
   
 ]
