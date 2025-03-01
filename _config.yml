@@ -144,7 +144,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  monotone # Optional predefined skins
+  skin         :  listen # Optional predefined skins
   autothemer    :  false # Bool: Use autotheming
   
     
