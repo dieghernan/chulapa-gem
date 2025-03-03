@@ -20,8 +20,8 @@
       },
       "headline": "Search",
       "image": "",
-      "datePublished": "2025-03-03T20:16:31+00:00",
-      "dateModified": "2025-03-03T20:16:31+00:00",
+      "datePublished": "2025-03-03T20:18:05+00:00",
+      "dateModified": "2025-03-03T20:18:05+00:00",
       "author": {
         "@type": "Person",
         "name": "Your Name"
@@ -172,44 +172,37 @@
     <div class="row">
         <div class="col-lg-8 offset-lg-2 my-auto text-center">
 
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap');
+    
+    .fuse {
+        font-family: "Source Sans 3", serif;
+        font-weight: 400;
+        }
+      
+    .fuse-logo {
+        color: #9b59b6;
+        font-weight: bolder;
+        --fa-animation-iteration-count:1;
+        --fa-animation-duration: 0.5s;
+        --fa-animation-delay: 0.5s;
+        }
+        
+</style>
+
+
+
 <form class="input-group">
     <label class="sr-only" for="search"> Search </label>
-    <input type="search" id="search-input" class="form-control rounded-right" placeholder="Search...">
+    <input type="search" id="search" class="form-control rounded-right" placeholder="Search...">
 </form>
 
+<p class="text-right small mt-1"> Powered by <a href="https://www.fusejs.io/"><i class="fa-solid fa-asterisk fa-lg fa-spin fuse-logo"></i> Fuse.js</a></p>
 
-<div id="results-container" class="mt-3 text-left"></div>
-
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-
-<script>
-    SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate:   '<article class="my-2 text-left">' 	+
-                    '<div class="row">'	+
-                    '<div class="col">' +
-                    '<h5 class="chulapa-links-hover-only" itemprop="headline">' +
-                    '<a href="{url}" rel="permalink">{title}</a>' +
-                    '</h5>' +
-                    '</div>'		+
-					'<div class="col-4 col-md-3">' +
-					'<a href="{url}" rel="permalink">' +
-					'<div class="rounded-lg chulapa-overlay-img chulapa-min-h-10"'+
-					'style="background-image{img}" ></div>' +
-					'</div></a>' +
-                    '</div>' +		
-                    '<div class="row mt-2">' +
-                    '<div class="col">' +
-                    '<p>{excerpt}</p>' +
-					'</div>' +
-					'</div>' +
-					'<hr>' +
-					'</article>',
-    fuzzy: false,
-    json: 'https://dieghernan.github.io/chulapa-gem/assets/js/simplesearch/simplesearch-store.json' 
-    });
-</script></div>
+<div id="resultscount"></div>
+<div id="results" class="mt-3 text-left"></div>
+</div>
     </div>
 </main><!-- Footer -->
   <footer class="footer-chulapa text-center mt-0 pt-3">
@@ -235,7 +228,10 @@
 <!-- Footer -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
+<script src="https://dieghernan.github.io/chulapa-gem/assets/js/fusejs/fusejs-store.js"></script>
+<script src="https://dieghernan.github.io/chulapa-gem/assets/js/fusejs/fusejs-search.min.js"></script>
+
 <!-- start custom scripts to be placed at the bottom of the page -->
 
 
