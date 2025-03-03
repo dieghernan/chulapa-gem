@@ -15,9 +15,9 @@ title                   : Chulapa 101    #default["repository_name"]
 title_separator         :     #default [" | "]
 subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]  
 description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
-url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
-baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
-repository              :     dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
+url                     : "https://dieghernan.github.io"
+baseurl                 : "/chulapa-gem"
+repository              :     dieghernan/chulapa-gem # Needs to be set (e.g. dieghernan/chulapa)
 words_per_minute        :     #default[200]
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -53,7 +53,8 @@ search:
   label                 :  #default ["Search"] Text on navbar when search is enabled 
   landing_page          :  #default ["/search"] Link on navbar 
   maxwords              : 500  #default [30] lunr only - May slow down your site build
-  algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
+  algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false. 
+  show_attrib           :    
 
 google_cse_id: #Your cse id
 # This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/

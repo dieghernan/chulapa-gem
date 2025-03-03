@@ -18,3 +18,7 @@ gem 'kramdown-parser-gfm'
 gem 'faraday-retry'
 gem "webrick"
 gem 'tzinfo-data'
+
+gem "ostruct", "~> 0.6.1"
+
+gem "fiddle", "~> 1.1"
