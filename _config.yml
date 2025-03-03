@@ -52,7 +52,7 @@ search:
   provider              : fusejs #Select a provider for enable search: lunr, algolia, google
   label                 :  #default ["Search"] Text on navbar when search is enabled 
   landing_page          :  #default ["/search"] Link on navbar 
-  fusejs_maxwords        : 500  #default [30] lunr only - May slow down your site build
+  maxwords              : 500  #default [30] lunr only - May slow down your site build
   algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
 
 google_cse_id: #Your cse id
