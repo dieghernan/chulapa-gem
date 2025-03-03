@@ -54,7 +54,7 @@ search:
   landing_page          :  #default ["/search"] Link on navbar 
   maxwords              : 500  #default [30] lunr only - May slow down your site build
   algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false. 
-  show_attrib           :    
+  show_attrib           :    false
 
 google_cse_id: #Your cse id
 # This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
