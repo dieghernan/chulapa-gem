@@ -7,8 +7,8 @@
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
 		<copyright>(c) 2026, Your Name</copyright>	
-		<pubDate>Thu, 08 Oct 2026 06:52:53 +0000</pubDate>
-		<lastBuildDate>Thu, 08 Oct 2026 06:52:53 +0000</lastBuildDate>
+		<pubDate>Sat, 24 Oct 2026 06:32:07 +0000</pubDate>
+		<lastBuildDate>Sat, 24 Oct 2026 06:32:07 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-gem/rss.xml" rel="self" type="application/rss+xml" />
@@ -28,7 +28,7 @@
 <nav aria-label="Navigation" class="container-lg chulapa-pagination  ">
   <ul class="col-lg-8 offset-lg-2 pagination chulapa-pagination-round px-0 ">
     <li class="page-item text-left mr-0 ">
-      <a class="page-link border-0 px-4" href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" tabindex="-1">
+      <a class="page-link border-0 px-4" href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/">
 	  <i class="fa fa-chevron-left" aria-hidden="true"></i><span class="sr-only">Previous</span>
 	  </a>
     </li>
@@ -48,8 +48,8 @@
 	    <p class="page-link chulapa-label"></p>
 	  </li>
     <li class="page-item text-right ml-0 invisible">
-      <a class="page-link border-0 px-4" href="#">
-	  <i class="fa fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Next</span></a>
+      <span class="page-link border-0 px-4">
+	  <i class="fa fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Next</span></span>
     </li>
   </ul>
 </nav>
@@ -137,16 +137,20 @@
       <div class="bs-component">
         <!-- Chulapa classic navbar expanding in lg or above --><nav class="navbar navbar-expand-lg sticky-top navbar-chulapa border border-light my-2">
           <div class="container-fluid mx-md-2">
-            <a class="navbar-brand font-weight-bold" href="https://dieghernan.github.io/chulapa-gem/">Default</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand font-weight-bold" href="https://dieghernan.github.io/chulapa-gem/">Default</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDemoToggler" aria-controls="navbarDemoToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <ul class="navbar-nav ml-auto"><li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarDemoToggler">
+              <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>
+                </a>
+              </li><li class="nav-item">
                   <a class="nav-link " href="https://dieghernan.github.io/chulapa-gem/blog/">Blog</a>
                 </li><li class="nav-item">
                   <a class="nav-link " href="https://dieghernan.github.io/chulapa-gem/cheatsheets">Cheatsheets</a>
                 </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Extras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Extras"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/tags">Tags</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/categories">Categories</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/archive">Archive</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/current-skin">Current skin</a></div>
+                  <div class="dropdown-menu dropdown-menu-right" role="group" aria-labelledby="Extras"><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/tags">Tags</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/categories">Categories</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/archive">Archive</a><a class="dropdown-item " href="https://dieghernan.github.io/chulapa-gem/current-skin">Current skin</a></div>
                 </li><li class="nav-item">
                   <a class="nav-link " href="https://dieghernan.github.io/chulapa/docs/01-install">Docs</a>
                 </li><li class="nav-item">
@@ -157,8 +161,21 @@
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <span class="sr-only">Search</span>
                   </a>
-                </li></ul>
-            </div></div>
+                </li><li class="nav-item dropdown chulapa-theme-selector">
+  <button type="button" class="nav-link dropdown-toggle chulapa-theme-toggle" id="chulapa-theme-demo-dark" data-toggle="dropdown" aria-expanded="false" aria-label="Color theme: Light" title="Color theme: Light">
+    <i class="fas fa-sun" aria-hidden="true"></i>
+    <span class="chulapa-theme-label">Light</span>
+  </button>
+  <div class="dropdown-menu dropdown-menu-right" role="group" aria-labelledby="chulapa-theme-demo-dark">
+    <button type="button" class="dropdown-item" data-theme-mode="light" aria-pressed="true"><i class="fas fa-sun mr-2" aria-hidden="true"></i>Light</button>
+    <button type="button" class="dropdown-item" data-theme-mode="dark" aria-pressed="false"><i class="fas fa-moon mr-2" aria-hidden="true"></i>Dark</button>
+    <button type="button" class="dropdown-item" data-theme-mode="auto" aria-pressed="false"><i class="fa fa-adjust mr-2" aria-hidden="true"></i>Auto</button>
+  </div>
+</li>
+
+                </ul>
+            </div>
+          </div>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -292,7 +309,7 @@
           <button type="button" class="btn btn-primary">Primary</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <div class="dropdown-menu" role="group" aria-labelledby="btnGroupDrop1">
               <a class="dropdown-item" href="#">Dropdown link</a>
               <a class="dropdown-item" href="#">Dropdown link</a>
             </div>
@@ -302,7 +319,7 @@
           <button type="button" class="btn btn-success">Success</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+            <div class="dropdown-menu" role="group" aria-labelledby="btnGroupDrop2">
               <a class="dropdown-item" href="#">Dropdown link</a>
               <a class="dropdown-item" href="#">Dropdown link</a>
             </div>
@@ -312,7 +329,7 @@
           <button type="button" class="btn btn-info">Info</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+            <div class="dropdown-menu" role="group" aria-labelledby="btnGroupDrop3">
               <a class="dropdown-item" href="#">Dropdown link</a>
               <a class="dropdown-item" href="#">Dropdown link</a>
             </div>
@@ -322,7 +339,7 @@
           <button type="button" class="btn btn-danger">Danger</button>
           <div class="btn-group" role="group">
             <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-            <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+            <div class="dropdown-menu" role="group" aria-labelledby="btnGroupDrop4">
               <a class="dropdown-item" href="#">Dropdown link</a>
               <a class="dropdown-item" href="#">Dropdown link</a>
             </div>

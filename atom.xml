@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-gem/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-gem" rel="alternate" type="text/html" />
-	<updated>2026-10-08T06:52:53+00:00</updated>
+	<updated>2026-10-24T06:32:07+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-gem/atom.xml</id>
 	<title>Chulapa 101 | Chulapa Jekyll Theme starter pack</title>
 	<subtitle>Chulapa Jekyll Theme starter pack</subtitle>
@@ -33,7 +33,7 @@
 &lt;nav aria-label=&quot;Navigation&quot; class=&quot;container-lg chulapa-pagination  &quot;&gt;
   &lt;ul class=&quot;col-lg-8 offset-lg-2 pagination chulapa-pagination-round px-0 &quot;&gt;
     &lt;li class=&quot;page-item text-left mr-0 &quot;&gt;
-      &lt;a class=&quot;page-link border-0 px-4&quot; href=&quot;https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/&quot; tabindex=&quot;-1&quot;&gt;
+      &lt;a class=&quot;page-link border-0 px-4&quot; href=&quot;https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/&quot;&gt;
 	  &lt;i class=&quot;fa fa-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
 	  &lt;/a&gt;
     &lt;/li&gt;
@@ -53,8 +53,8 @@
 	    &lt;p class=&quot;page-link chulapa-label&quot;&gt;&lt;/p&gt;
 	  &lt;/li&gt;
     &lt;li class=&quot;page-item text-right ml-0 invisible&quot;&gt;
-      &lt;a class=&quot;page-link border-0 px-4&quot; href=&quot;#&quot;&gt;
-	  &lt;i class=&quot;fa fa-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;&lt;/a&gt;
+      &lt;span class=&quot;page-link border-0 px-4&quot;&gt;
+	  &lt;i class=&quot;fa fa-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
@@ -142,16 +142,20 @@
       &lt;div class=&quot;bs-component&quot;&gt;
         &lt;!-- Chulapa classic navbar expanding in lg or above --&gt;&lt;nav class=&quot;navbar navbar-expand-lg sticky-top navbar-chulapa border border-light my-2&quot;&gt;
           &lt;div class=&quot;container-fluid mx-md-2&quot;&gt;
-            &lt;a class=&quot;navbar-brand font-weight-bold&quot; href=&quot;https://dieghernan.github.io/chulapa-gem/&quot;&gt;Default&lt;/a&gt;&lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarToggler&quot; aria-controls=&quot;navbarToggler&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+            &lt;a class=&quot;navbar-brand font-weight-bold&quot; href=&quot;https://dieghernan.github.io/chulapa-gem/&quot;&gt;Default&lt;/a&gt; &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarDemoToggler&quot; aria-controls=&quot;navbarDemoToggler&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
               &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
             &lt;/button&gt;
-            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarToggler&quot;&gt;
-              &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;
+            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarDemoToggler&quot;&gt;
+              &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+                            &lt;li class=&quot;nav-item active&quot;&gt;
+                &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;
+                &lt;/a&gt;
+              &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
                   &lt;a class=&quot;nav-link &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/blog/&quot;&gt;Blog&lt;/a&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
                   &lt;a class=&quot;nav-link &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/cheatsheets&quot;&gt;Cheatsheets&lt;/a&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a class=&quot;nav-link dropdown-toggle &quot; href=&quot;#&quot; id=&quot;Extras&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Extras&lt;/a&gt;
-                  &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; aria-labelledby=&quot;Extras&quot;&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/tags&quot;&gt;Tags&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/categories&quot;&gt;Categories&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/archive&quot;&gt;Archive&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/current-skin&quot;&gt;Current skin&lt;/a&gt;&lt;/div&gt;
+                  &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; role=&quot;group&quot; aria-labelledby=&quot;Extras&quot;&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/tags&quot;&gt;Tags&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/categories&quot;&gt;Categories&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/archive&quot;&gt;Archive&lt;/a&gt;&lt;a class=&quot;dropdown-item &quot; href=&quot;https://dieghernan.github.io/chulapa-gem/current-skin&quot;&gt;Current skin&lt;/a&gt;&lt;/div&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
                   &lt;a class=&quot;nav-link &quot; href=&quot;https://dieghernan.github.io/chulapa/docs/01-install&quot;&gt;Docs&lt;/a&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
@@ -162,8 +166,21 @@
                     &lt;i class=&quot;fa fa-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
                     &lt;span class=&quot;sr-only&quot;&gt;Search&lt;/span&gt;
                   &lt;/a&gt;
-                &lt;/li&gt;&lt;/ul&gt;
-            &lt;/div&gt;&lt;/div&gt;
+                &lt;/li&gt;&lt;li class=&quot;nav-item dropdown chulapa-theme-selector&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;nav-link dropdown-toggle chulapa-theme-toggle&quot; id=&quot;chulapa-theme-demo-dark&quot; data-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Color theme: Light&quot; title=&quot;Color theme: Light&quot;&gt;
+    &lt;i class=&quot;fas fa-sun&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+    &lt;span class=&quot;chulapa-theme-label&quot;&gt;Light&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; role=&quot;group&quot; aria-labelledby=&quot;chulapa-theme-demo-dark&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;dropdown-item&quot; data-theme-mode=&quot;light&quot; aria-pressed=&quot;true&quot;&gt;&lt;i class=&quot;fas fa-sun mr-2&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Light&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;dropdown-item&quot; data-theme-mode=&quot;dark&quot; aria-pressed=&quot;false&quot;&gt;&lt;i class=&quot;fas fa-moon mr-2&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Dark&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;dropdown-item&quot; data-theme-mode=&quot;auto&quot; aria-pressed=&quot;false&quot;&gt;&lt;i class=&quot;fa fa-adjust mr-2&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;Auto&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
         &lt;/nav&gt;
         &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-primary&quot;&gt;
           &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;
@@ -297,7 +314,7 @@
           &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
           &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
             &lt;button id=&quot;btnGroupDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
-            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop1&quot;&gt;
+            &lt;div class=&quot;dropdown-menu&quot; role=&quot;group&quot; aria-labelledby=&quot;btnGroupDrop1&quot;&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
             &lt;/div&gt;
@@ -307,7 +324,7 @@
           &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
           &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
             &lt;button id=&quot;btnGroupDrop2&quot; type=&quot;button&quot; class=&quot;btn btn-success dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
-            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop2&quot;&gt;
+            &lt;div class=&quot;dropdown-menu&quot; role=&quot;group&quot; aria-labelledby=&quot;btnGroupDrop2&quot;&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
             &lt;/div&gt;
@@ -317,7 +334,7 @@
           &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
           &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
             &lt;button id=&quot;btnGroupDrop3&quot; type=&quot;button&quot; class=&quot;btn btn-info dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
-            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop3&quot;&gt;
+            &lt;div class=&quot;dropdown-menu&quot; role=&quot;group&quot; aria-labelledby=&quot;btnGroupDrop3&quot;&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
             &lt;/div&gt;
@@ -327,7 +344,7 @@
           &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
           &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
             &lt;button id=&quot;btnGroupDrop4&quot; type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
-            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop4&quot;&gt;
+            &lt;div class=&quot;dropdown-menu&quot; role=&quot;group&quot; aria-labelledby=&quot;btnGroupDrop4&quot;&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
               &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
             &lt;/div&gt;
