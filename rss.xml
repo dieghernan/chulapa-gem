@@ -6,9 +6,9 @@
 		<link>https://dieghernan.github.io/chulapa-gem</link>
 		<description>Chulapa Jekyll Theme starter pack</description>
 		<language>en-US</language>
-		<copyright>(c) 2026, Your Name</copyright>	
-		<pubDate>Sat, 24 Oct 2026 06:32:38 +0000</pubDate>
-		<lastBuildDate>Sat, 24 Oct 2026 06:32:38 +0000</lastBuildDate>
+		<copyright>(c) 2026, Your Name</copyright>
+		<pubDate>Wed, 04 Nov 2026 13:11:15 +0000</pubDate>
+		<lastBuildDate>Wed, 04 Nov 2026 13:11:15 +0000</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/chulapa-gem/rss.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,9 @@
 			<url></url>
 			<link>https://dieghernan.github.io/chulapa-gem</link>
 			<description>Chulapa Jekyll Theme starter pack</description>
-		</image><item>
+		</image>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Current skin</title>
 			<description>
 				<![CDATA[	
@@ -1658,7 +1660,9 @@
       <media:content url="https://picsum.photos/id/1018/2000/2000" medium="image"/>
       <media:thumbnail url="https://picsum.photos/id/1018/2000/2000" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20201231_current-skin/</guid>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			
 			<title>The Acueduct of Segovia</title>
 			<description>
 				<![CDATA[	
@@ -1674,7 +1678,9 @@
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG" medium="image"/>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/</guid>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Octocat</dc:creator>
 			<title>A landing page</title>
 			<description>
 				<![CDATA[	
@@ -1690,7 +1696,9 @@
       <media:content url="https://dieghernan.github.io/chulapa/assets/img/site/transparent.png" medium="image"/>
       <media:thumbnail url="https://dieghernan.github.io/chulapa/assets/img/site/transparent.png" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20190803_landing-page/</guid>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			
 			<title>Dean Village</title>
 			<description>
 				<![CDATA[	
@@ -1714,7 +1722,9 @@ to understand <code class="language-plaintext highlighter-rouge">.blockquote-foo
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg" medium="image"/>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20190502_dean-village/</guid>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			
 			<title>Urban art</title>
 			<description>
 				<![CDATA[	
@@ -1734,7 +1744,9 @@ to understand <code class="language-plaintext highlighter-rouge">.blockquote-foo
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Madrid_-_Graffiti_11.jpg/407px-Madrid_-_Graffiti_11.jpg" medium="image"/>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Madrid_-_Graffiti_11.jpg/407px-Madrid_-_Graffiti_11.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20181109_urban_art/</guid>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Flake it till you make it</title>
 			<description>
 				<![CDATA[	
@@ -1754,7 +1766,9 @@ to understand <code class="language-plaintext highlighter-rouge">.blockquote-foo
 			<category>posts</category>
 		    <category>manuscript</category><category>random</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/</guid>
       <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Test markdown</title>
 			<description>
 				<![CDATA[	
@@ -1826,7 +1840,9 @@ foo(3)
 			<category>posts</category>
 		    <category>exciting-stuff</category><category>markdown</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/</guid>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>To be</title>
 			<description>
 				<![CDATA[	
@@ -1874,7 +1890,9 @@ Be all my sins remembered.</p>
 			<category>posts</category>
 		    <category>manuscript</category><category>wikipedia</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/</guid>
       <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Dear diary</title>
 			<description>
 				<![CDATA[	
@@ -1888,7 +1906,9 @@ Be all my sins remembered.</p>
 			<category>posts</category>
 		    <category>diary</category><category>manuscript</category><category>random</category><category>school</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/</guid>
       <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Soccer</title>
 			<description>
 				<![CDATA[	
@@ -1906,7 +1926,9 @@ Be all my sins remembered.</p>
 			<category>posts</category>
 		    <category>exciting-stuff</category><category>random</category><category>wikipedia</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150119_soccer/</guid>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>Pirates arrrr</title>
 			<description>
 				<![CDATA[	
@@ -1920,7 +1942,9 @@ Be all my sins remembered.</p>
 			<category>posts</category>
 		    <category>pirates</category><category>random</category><category>wikipedia</category><guid isPermaLink="true">https://dieghernan.github.io/chulapa-gem/20150115_pirates/</guid>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-		</item><item>
+		</item>
+		<item>
+			<dc:creator>Your Name</dc:creator>
 			<title>First post!</title>
 			<description>
 				<![CDATA[	

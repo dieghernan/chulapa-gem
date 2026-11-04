@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - v2.2.0 -->
+    <!-- Chulapa Jekyll Theme - v2.2.1 (development) -->
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-10-24 -->
+    <!-- Page build 2026-11-04 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
@@ -14,22 +14,24 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "https://dieghernan.github.io/chulapa-gem/blog/page3/",
+        "isPartOf": {"@id": "https://dieghernan.github.io/chulapa-gem/#website"},
+        "breadcrumb": {"@id": "https://dieghernan.github.io/chulapa-gem/blog/page3/#breadcrumb"},
         "name": "Blog",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "@id": "https://dieghernan.github.io/chulapa-gem/blog/page3/#primaryimage",
+          "url": "https://dieghernan.github.io/chulapa-gem/assets/img/site/banner-blog.png"
+        },
         "description": "News and updates - Latest news",
+        "inLanguage": "en-US",
         "headline": "Blog",
         "image": "https://dieghernan.github.io/chulapa-gem/assets/img/site/banner-blog.png",
-        "author": {
-          "@type": "Person",
-          "name": "Your Name"
-        },
+        "author": {"@id": "https://dieghernan.github.io/chulapa-gem/#author"},
         "publisher": {
           "@type": "Organization",
+          "@id": "https://dieghernan.github.io/chulapa-gem/#publisher",
           "name": "Your Name",
-          "url": "https://dieghernan.github.io/chulapa-gem/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": ""
-          }
+          "url": "https://dieghernan.github.io/chulapa-gem/"
         }
       }
     </script>
@@ -58,13 +60,23 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "https://dieghernan.github.io/chulapa-gem/#author",
+        "name": "Your Name",
+        "url": "https://dieghernan.github.io/chulapa-gem/",
         "homeLocation": {
           "@type": "Place",
           "name": "Madrid, Spain"
-        },
-        "description": "Publisher",
-        "name": "Your Name",
-        "url": "https://dieghernan.github.io/chulapa-gem/"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://dieghernan.github.io/chulapa-gem/#website",
+        "url": "https://dieghernan.github.io/chulapa-gem/",
+        "name": "Chulapa 101",
+        "publisher": {"@id": "https://dieghernan.github.io/chulapa-gem/#publisher"}
       }
     </script>
     <title>Blog | Chulapa 101</title>
@@ -91,16 +103,15 @@
     <!-- Twitter/X Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="News and updates - Latest news">
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
     <!-- CSS -->
     <!-- Preconnect with Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fontawesome-->
-    <!-- v6 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
     <link rel="preload" href="/chulapa-gem/assets/js/chulapa_script.js" as="script" >
     <link rel="preload" href="/chulapa-gem/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf" as="font" type="font/otf" crossorigin>
     <!-- Theme css (Bootstrap included) -->
@@ -109,7 +120,7 @@
     <link id="csshigh" rel="stylesheet" href="https://dieghernan.github.io/chulapa-gem/assets/css/highlighter.css" >
     <!-- Custom css -->
     <link rel="stylesheet" href="https://dieghernan.github.io/chulapa-gem/assets/css/custom.css" >
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
@@ -153,12 +164,10 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index h-entry">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" aria-label="Dear diary" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
->
-		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
 				<a class="u-url" href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/"><h2 class="h5 card-title p-name">Dear diary</h2></a>
+				<span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span>
 				<div class="card-text p-summary">What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive!  I’m thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).
 </div>
 			</article>
@@ -172,12 +181,10 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index h-entry">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" aria-label="Soccer" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
->
-		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
 				<a class="u-url" href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/"><h2 class="h5 card-title p-name">Soccer</h2></a>
+				<span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span>
 				<p class="h6 card-subtitle mb-2 chulapa-text-body-color">Best sport ever!</p><div class="card-text p-summary">From Wikipedia:
 </div>
 			</article>
@@ -191,12 +198,10 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index h-entry">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" aria-label="Pirates arrrr" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
->
-		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
 				<a class="u-url" href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/"><h2 class="h5 card-title p-name">Pirates arrrr</h2></a>
+				<span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span>
 				<div class="card-text p-summary">Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.
 </div>
 			</article>
@@ -210,12 +215,10 @@
 <div class="col-12 mb-2">
 <div class="card chulapa-border-card-index h-entry">
 	<div class="row g-0">
-		<a href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/" aria-label="First post!" class="col-sm-1 chulapa-min-h-10 chulapa-card-img chulapa-overlay-img chulapa-gradient d-none d-sm-flex  "
->
-		</a>
 		<div class="col-sm">
 			<article class="card-body chulapa-links-hover-only">
 				<a class="u-url" href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/"><h2 class="h5 card-title p-name">First post!</h2></a>
+				<span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span>
 				<div class="card-text p-summary">This is my first post, how exciting!
 </div>
 			</article>

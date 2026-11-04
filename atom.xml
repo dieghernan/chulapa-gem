@@ -3,13 +3,14 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/chulapa-gem/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/chulapa-gem" rel="alternate" type="text/html" />
-	<updated>2026-10-24T06:32:38+00:00</updated>
+	<updated>2026-11-04T13:11:15+00:00</updated>
 	<id>https://dieghernan.github.io/chulapa-gem/atom.xml</id>
 	<title>Chulapa 101 | Chulapa Jekyll Theme starter pack</title>
 	<subtitle>Chulapa Jekyll Theme starter pack</subtitle>
+	
 	<author>
 		<name>Your Name</name>
-					
+		
 	</author>
 	<rights>(c) 2026, Your Name</rights>
 	
@@ -1658,7 +1659,9 @@
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1683,7 +1686,9 @@
 		</content>
 		
 		<author>
-			<name></name></author>
+			<name></name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;The &lt;strong&gt;Aqueduct of Segovia&lt;/strong&gt; (Spanish: &lt;em&gt;Acueducto de Segovia&lt;/em&gt;; more accurately, the aqueduct bridge) is a Roman aqueduct in Segovia, Spain. It is one of the best-preserved elevated Roman aqueducts and the foremost symbol of Segovia, as evidenced by its presence on the city’s coat of arms.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1708,7 +1713,9 @@
 		</content>
 		
 		<author>
-			<name>Octocat</name><uri>https://github.com/github/</uri></author>
+			<name>Octocat</name>
+			<uri>https://github.com/github/</uri>
+		</author>
 		<summary type="html">&lt;p&gt;A simple landing page with an image on top. Transparencies (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;png&lt;/code&gt;) works better on this combination.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1738,7 +1745,9 @@ to understand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt
 		</content>
 		
 		<author>
-			<name></name></author>
+			<name></name>
+			
+		</author>
 		<summary type="html">&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Dean Village&lt;/strong&gt; (from &lt;em&gt;dene&lt;/em&gt;, meaning ‘&lt;em&gt;deep valley&lt;/em&gt;’) is a former village immediately northwest of the city centre of Edinburgh, Scotland. It was known as the “Water of Leith Village” and was the centre of a successful grain milling area for more than 800 years. At one time there were no fewer than eleven working mills there, driven by the strong currents of the Water of Leith.&lt;/p&gt;
 
@@ -1771,7 +1780,9 @@ to understand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt
 		</content>
 		
 		<author>
-			<name></name></author>
+			<name></name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;Urban artists can use anything as a canvas to express their art&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1800,7 +1811,9 @@ to understand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1881,7 +1894,9 @@ foo(3)
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;You can write regular &lt;a href=&quot;http://markdowntutorial.com/&quot;&gt;markdown&lt;/a&gt; here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to &lt;a href=&quot;http://markdowntutorial.com/&quot;&gt;take 5 minutes to learn how to write in markdown&lt;/a&gt; - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -1938,7 +1953,9 @@ Be all my sins remembered.&lt;/p&gt;
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;To be, or not to be–that is the question:
 Whether ‘tis nobler in the mind to suffer
 The slings and arrows of outrageous fortune
@@ -1992,7 +2009,9 @@ Be all my sins remembered.&lt;/p&gt;
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive!  I’m thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -2019,7 +2038,9 @@ Be all my sins remembered.&lt;/p&gt;
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;From Wikipedia:&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -2039,7 +2060,9 @@ Be all my sins remembered.&lt;/p&gt;
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.&lt;/p&gt;
 </summary>
 		<category term="posts"/>
@@ -2059,7 +2082,9 @@ Be all my sins remembered.&lt;/p&gt;
 		</content>
 		
 		<author>
-			<name>Your Name</name></author>
+			<name>Your Name</name>
+			
+		</author>
 		<summary type="html">&lt;p&gt;This is my first post, how exciting!&lt;/p&gt;
 </summary>
 		<category term="posts"/>

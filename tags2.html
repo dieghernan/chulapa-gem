@@ -2,34 +2,30 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - v2.2.0 -->
+    <!-- Chulapa Jekyll Theme - v2.2.1 (development) -->
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-10-24 -->
+    <!-- Page build 2026-11-04 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
+        "@type": "CollectionPage",
         "@id": "https://dieghernan.github.io/chulapa-gem/tags2",
+        "isPartOf": {"@id": "https://dieghernan.github.io/chulapa-gem/#website"},
+        "breadcrumb": {"@id": "https://dieghernan.github.io/chulapa-gem/tags2#breadcrumb"},
         "name": "Tags",
         "description": "Adapted to Jekyll \u003e= 4.1.0, see Chulapa Docs for info",
+        "inLanguage": "en-US",
         "headline": "Tags",
-        "image": "",
-        "author": {
-          "@type": "Person",
-          "name": "Your Name"
-        },
+        "author": {"@id": "https://dieghernan.github.io/chulapa-gem/#author"},
         "publisher": {
           "@type": "Organization",
+          "@id": "https://dieghernan.github.io/chulapa-gem/#publisher",
           "name": "Your Name",
-          "url": "https://dieghernan.github.io/chulapa-gem/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": ""
-          }
+          "url": "https://dieghernan.github.io/chulapa-gem/"
         }
       }
     </script>
@@ -58,13 +54,23 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "https://dieghernan.github.io/chulapa-gem/#author",
+        "name": "Your Name",
+        "url": "https://dieghernan.github.io/chulapa-gem/",
         "homeLocation": {
           "@type": "Place",
           "name": "Madrid, Spain"
-        },
-        "description": "Publisher",
-        "name": "Your Name",
-        "url": "https://dieghernan.github.io/chulapa-gem/"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://dieghernan.github.io/chulapa-gem/#website",
+        "url": "https://dieghernan.github.io/chulapa-gem/",
+        "name": "Chulapa 101",
+        "publisher": {"@id": "https://dieghernan.github.io/chulapa-gem/#publisher"}
       }
     </script>
     <title>Tags | Chulapa 101</title>
@@ -89,16 +95,15 @@
     <!-- Twitter/X Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Adapted to Jekyll &gt;= 4.1.0, see Chulapa Docs for info">
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
     <!-- CSS -->
     <!-- Preconnect with Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fontawesome-->
-    <!-- v6 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
     <link rel="preload" href="/chulapa-gem/assets/js/chulapa_script.js" as="script" >
     <link rel="preload" href="/chulapa-gem/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf" as="font" type="font/otf" crossorigin>
     <!-- Theme css (Bootstrap included) -->
@@ -107,7 +112,7 @@
     <link id="csshigh" rel="stylesheet" href="https://dieghernan.github.io/chulapa-gem/assets/css/highlighter.css" >
     <!-- Custom css -->
     <link rel="stylesheet" href="https://dieghernan.github.io/chulapa-gem/assets/css/custom.css" >
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
@@ -167,7 +172,7 @@
  </nav>
  </div></div>
 		<div class="row pt-2">
-			<div class="col-lg-2 mt-lg-3 small"></div>
+			<div class="col-lg-2 mt-lg-3 small"><span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span></div>
 			<div id="maincontent" class="col-lg-8 mt-3">
 			<!--Layout cloudtag2 deprecated. Migrate to layout: cloudtag -->
 <!--_plugins\grouptag.rb not needed any more, please delete -->
@@ -181,7 +186,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -191,7 +197,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -201,7 +208,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3><p class="p-summary">With image header</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Octocat</span><a class="u-url" href="https://github.com/github/">Octocat</a><img class="u-photo" src="https://github.com/octocat.png" alt=""></span><p class="p-summary">With image header</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-08-03T00:00:00+00:00">august 03, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -211,7 +219,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -221,7 +230,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3><p class="p-summary">Creativity is everywhere</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3>
+     <p class="p-summary">Creativity is everywhere</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2018-11-09T00:00:00+00:00">november 09, 2018</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -240,7 +250,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -250,7 +261,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -260,7 +272,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/" class="p-name u-url">To be</a></h3><p class="p-summary">… or not to be?</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/" class="p-name u-url">To be</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">… or not to be?</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-13T00:00:00+00:00">february 13, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -268,7 +281,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3><p class="p-summary">Best sport ever!</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Best sport ever!</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-19T00:00:00+00:00">january 19, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -276,7 +290,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-15T00:00:00+00:00">january 15, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -293,7 +308,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/" class="p-name u-url">Flake it till you make it</a></h3><p class="p-summary">Excerpt from Soulshaping by Jeff Brown</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/" class="p-name u-url">Flake it till you make it</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Excerpt from Soulshaping by Jeff Brown</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-26T00:00:00+00:00">february 26, 2015</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -301,7 +317,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-27T00:00:00+00:00">january 27, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -309,7 +326,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3><p class="p-summary">Best sport ever!</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Best sport ever!</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-19T00:00:00+00:00">january 19, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -317,7 +335,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-15T00:00:00+00:00">january 15, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -325,7 +344,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/" class="p-name u-url">First post!</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/" class="p-name u-url">First post!</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-04T00:00:00+00:00">january 04, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -342,7 +362,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -352,7 +373,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3><p class="p-summary">With image header</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Octocat</span><a class="u-url" href="https://github.com/github/">Octocat</a><img class="u-photo" src="https://github.com/octocat.png" alt=""></span><p class="p-summary">With image header</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-08-03T00:00:00+00:00">august 03, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -362,7 +384,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -381,7 +404,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -391,7 +415,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -401,7 +426,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3><p class="p-summary">Creativity is everywhere</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3>
+     <p class="p-summary">Creativity is everywhere</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2018-11-09T00:00:00+00:00">november 09, 2018</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -420,7 +446,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/" class="p-name u-url">Flake it till you make it</a></h3><p class="p-summary">Excerpt from Soulshaping by Jeff Brown</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/" class="p-name u-url">Flake it till you make it</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Excerpt from Soulshaping by Jeff Brown</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-26T00:00:00+00:00">february 26, 2015</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -428,7 +455,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/" class="p-name u-url">To be</a></h3><p class="p-summary">… or not to be?</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/" class="p-name u-url">To be</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">… or not to be?</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-13T00:00:00+00:00">february 13, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -436,7 +464,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-27T00:00:00+00:00">january 27, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -453,7 +482,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/" class="p-name u-url">Test markdown</a></h3><p class="p-summary">Each post also has a subtitle</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/" class="p-name u-url">Test markdown</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Each post also has a subtitle</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-20T00:00:00+00:00">february 20, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -461,7 +491,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3><p class="p-summary">Best sport ever!</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150119_soccer/" class="p-name u-url">Soccer</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Best sport ever!</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-19T00:00:00+00:00">january 19, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -469,7 +500,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/" class="p-name u-url">First post!</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150104_first-post/" class="p-name u-url">First post!</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-04T00:00:00+00:00">january 04, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -486,16 +518,18 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3><p class="p-summary">Beyond Markdown</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Beyond Markdown</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3><p class="p-summary">The basic syntax of your page</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">The basic syntax of your page</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 3’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
@@ -511,16 +545,18 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3><p class="p-summary">Beyond Markdown</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Beyond Markdown</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3><p class="p-summary">The basic syntax of your page</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">The basic syntax of your page</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 3’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
@@ -536,15 +572,17 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3><p class="p-summary">Beyond Markdown</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet" class="p-name u-url">kramdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Beyond Markdown</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 2’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -563,15 +601,17 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3><p class="p-summary">The basic syntax of your page</p><div class="small">
-        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-10-24T06:32:38+00:00">october 24, 2026</time>
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet" class="p-name u-url">Markdown cheatsheet</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">The basic syntax of your page</p><div class="small">
+        <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2026-11-04T13:11:15+00:00">november 04, 2026</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> 3’<span class="ml-2 badge chulapa-pill-bg-body p-category">cheatsheet</span></div>
    </div>
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/" class="p-name u-url">Test markdown</a></h3><p class="p-summary">Each post also has a subtitle</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/" class="p-name u-url">Test markdown</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Each post also has a subtitle</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-02-20T00:00:00+00:00">february 20, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -588,7 +628,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -598,7 +639,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -617,7 +659,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -627,7 +670,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -646,7 +690,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -656,7 +701,8 @@
  </article>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -675,7 +721,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -694,7 +741,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -713,7 +761,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20201231_current-skin/" class="p-name u-url">Current skin</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><p class="p-summary">Showing al the different Bootstrap components available</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2020-12-31T00:00:00+00:00">december 31, 2020</time>
  <i class="fa fa-redo" aria-hidden="true"></i> |
         <i class="far fa-clock" aria-hidden="true"></i> 9’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -732,7 +781,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3><p class="p-summary">20 centuries ago</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/" class="p-name u-url">The Acueduct of Segovia</a></h3>
+     <p class="p-summary">20 centuries ago</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-11-27T00:00:00+00:00">november 27, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -751,7 +801,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3><p class="p-summary">With image header</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Octocat</span><a class="u-url" href="https://github.com/github/">Octocat</a><img class="u-photo" src="https://github.com/octocat.png" alt=""></span><p class="p-summary">With image header</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-08-03T00:00:00+00:00">august 03, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -770,7 +821,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3><p class="p-summary">With image header</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Octocat</span><a class="u-url" href="https://github.com/github/">Octocat</a><img class="u-photo" src="https://github.com/octocat.png" alt=""></span><p class="p-summary">With image header</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-08-03T00:00:00+00:00">august 03, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -789,7 +841,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3><p class="p-summary">With image header</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190803_landing-page/" class="p-name u-url">A landing page</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Octocat</span><a class="u-url" href="https://github.com/github/">Octocat</a><img class="u-photo" src="https://github.com/octocat.png" alt=""></span><p class="p-summary">With image header</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-08-03T00:00:00+00:00">august 03, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -808,7 +861,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20190502_dean-village/" class="p-name u-url">Dean Village</a></h3>
+     <div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2019-05-02T00:00:00+00:00">may 02, 2019</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -827,7 +881,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3><p class="p-summary">Creativity is everywhere</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3>
+     <p class="p-summary">Creativity is everywhere</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2018-11-09T00:00:00+00:00">november 09, 2018</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -846,7 +901,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3><p class="p-summary">Creativity is everywhere</p><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20181109_urban_art/" class="p-name u-url">Urban art</a></h3>
+     <p class="p-summary">Creativity is everywhere</p><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2018-11-09T00:00:00+00:00">november 09, 2018</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -865,7 +921,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-27T00:00:00+00:00">january 27, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -882,7 +939,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/" class="p-name u-url">Dear diary</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-27T00:00:00+00:00">january 27, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -899,7 +957,8 @@
 </div>
  <article class="chulapa-links-hover-only my-1 mb-4 row g-0 h-entry">
    <div class="col">
-     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3><div class="small">
+     <h3 class="h6"><a href="https://dieghernan.github.io/chulapa-gem/20150115_pirates/" class="p-name u-url">Pirates arrrr</a></h3>
+      <span class="p-author h-card d-none" hidden><span class="p-name">Your Name</span></span><div class="small">
         <i class="far fa-calendar" aria-hidden="true"></i> <time class="dt-published" datetime="2015-01-15T00:00:00+00:00">january 15, 2015</time>
  |
         <i class="far fa-clock" aria-hidden="true"></i> &lt; 1’<span class="ml-2 badge chulapa-pill-bg-body p-category">posts</span></div>
@@ -909,6 +968,88 @@
       <a href="#tags" class="btn btn-lg border-0 chulapa-text-body-color"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i><span class="sr-only">Top</span></a>
  </div>
 </section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://dieghernan.github.io/chulapa-gem/tags2",
+  "mainEntity": {
+    "@type": "ItemList",
+    "@id": "https://dieghernan.github.io/chulapa-gem/tags2#itemlist",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "kramdown cheatsheet",
+        "item": "https://dieghernan.github.io/chulapa-gem/cheatsheets/02-kramdown-cheat-sheet"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Markdown cheatsheet",
+        "item": "https://dieghernan.github.io/chulapa-gem/cheatsheets/01-markdown-cheat-sheet"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Current skin",
+        "item": "https://dieghernan.github.io/chulapa-gem/20201231_current-skin/"
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "name": "The Acueduct of Segovia",
+        "item": "https://dieghernan.github.io/chulapa-gem/20191127_acueduct-of-segovia/"
+      },{
+        "@type": "ListItem",
+        "position": 5,
+        "name": "A landing page",
+        "item": "https://dieghernan.github.io/chulapa-gem/20190803_landing-page/"
+      },{
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Dean Village",
+        "item": "https://dieghernan.github.io/chulapa-gem/20190502_dean-village/"
+      },{
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Urban art",
+        "item": "https://dieghernan.github.io/chulapa-gem/20181109_urban_art/"
+      },{
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Flake it till you make it",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150226_flake-it-till-you-make-it/"
+      },{
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Test markdown",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150220_test-markdown/"
+      },{
+        "@type": "ListItem",
+        "position": 10,
+        "name": "To be",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150213_hamlet-monologue/"
+      },{
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Dear diary",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150127_dear-diary/"
+      },{
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Soccer",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150119_soccer/"
+      },{
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Pirates arrrr",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150115_pirates/"
+      },{
+        "@type": "ListItem",
+        "position": 14,
+        "name": "First post!",
+        "item": "https://dieghernan.github.io/chulapa-gem/20150104_first-post/"
+      }]
+  }
+}
+</script>
 			</div>
 		</div>
 	</div>
