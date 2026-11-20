@@ -1,6 +1,6 @@
 github: [metadata]
 
-remote_theme: dieghernan/chulapa
+remote_theme: dieghernan/chulapa@v2.3.0
 # theme: chulapa-jekyll
 
 # Find errors on this file with http://www.yamllint.com/
@@ -22,10 +22,18 @@ words_per_minute        :     #default[200]
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
+# og_locale: en_US
+# og_locale_alternate: [es_ES, fr_FR]
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
+# Describe the site image above. These values apply when a page uses that image.
+# og_image_alt: A street in Madrid
+# og_image_width: 1200
+# og_image_height: 630
+# og_image_type: image/jpeg
 twitter_site            :     #Avoid @
 author:
   name                  :  Your Name   # Name Surname Company
+  # url: /about/ # Author profile.
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Madrid, Spain"   # New York, USA 
 #  links:                
@@ -34,14 +42,25 @@ author:
 #    - url:  # Another link
 #      icon: # Anothet FontAwesome code
 
+# Optional JSON-LD publisher (see docs/02-config#publisher).
+# publisher:
+#   type: Organization
+#   name: Example organization
+#   url: https://example.org
+#   logo: /assets/img/logo.png
+#   image: /assets/img/publisher.jpg
+
 fa_version: # Defaults to 7. Set to 6 or 5 to use an older version.
-fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/ 
-fa_v4_support: #Bool Add FontAwesome 4 support 
+fa_kit_code: # Optional Font Awesome kit code. Without a kit, load the free hosted version.
+fa_v4_support: # Set to true for v4 compatibility with hosted stylesheets. With a kit, configure compatibility in the kit settings.
+# fa5_kit_code: your-kit-code # Legacy kit key. Takes precedence over fa_kit_code.
 # Web tracking - Google services https://analytics.google.com/analytics/web/
 # gtag_id is the preferred option, see https://developers.google.com/analytics/devguides/collection/gtagjs/migration?hl=en
 # analytics provided for backwards compatibility
 gtag_id                 :  
 analytics_id            :  
+
+# goatcounter: https://YOUR-CODE.goatcounter.com/count # Production builds only.
 
 # Search providers
 # Available free search engines:
@@ -49,12 +68,17 @@ analytics_id            :
 # - algolia v4 https://www.algolia.com/ - needs further configuration
 # - google custom search engine https://cse.google.es/ 
 search:
-  provider              : lunr #Select a provider for enable search: lunr, algolia, google
+  provider              : lunr # Supported providers: lunr, algolia, google, simplesearch and fusejs.
   label                 :  #default ["Search"] Text on navbar when search is enabled 
-  landing_page          :  #default ["/search"] Link on navbar 
-  maxwords              : 10000  #default [30] lunr only - May slow down your site build
+  landing_page          : /search.html # Matches the existing search page permalink.
+  maxwords              : 10000  #default [30] Lunr, Simple-Jekyll-Search and Fuse.js only
   algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false. 
   show_attrib           :    
+
+  # Legacy provider-specific limits take precedence over maxwords.
+  # lunr_maxwords: 30
+  # simplesearch_maxwords: 30
+  # fusejs_maxwords: 30
 
 google_cse_id: #Your cse id
 # This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
@@ -69,24 +93,29 @@ algolia:
   extensions_to_index:      #Optional
     - html
     - md
-  searchableAttributes:     #Optional                                                    
-    - title                                                                    
-    - headings                                                                 
-    - unordered(content)                                                       
-    - unordered(subtitle)                                                      
-    - unordered(categories)                                                    
-    - unordered(collection)                                                    
-    - unordered(tags) 
-  customRanking:            #Optional
-    - desc(include_on_search)
-    - desc(title)
-    - desc(content) 
-    - desc(subtitle)
+  # nodes_to_index: 'p,h2,h3,h4,li' # CSS selector for rendered elements. The plugin defaults to p.
+  settings:
+    searchableAttributes:
+      - title
+      - headings
+      - unordered(content)
+      - unordered(subtitle)
+      - unordered(categories)
+      - unordered(collection)
+      - unordered(tags)
+    customRanking:
+      - desc(include_on_search)
+      - desc(title)
+      - desc(content)
+      - desc(subtitle)
     
 comments:
-  provider:         #Enable comments via Disqus, giscus or Cactus.chat
+  provider:         # disqus, cusdis, giscus, cactus or welcomments
   disqus_shortname: #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/
   cactus_shortname: #Your site id as registered with Cactus.chat
+  # cusdis_app_id: your-app-id
+  # cusdis_host: https://comments.example.org
+  # website_id: your-welcomments-id
   
 # B. Navigation
 # Configure your navbar and the footer of your site
@@ -96,7 +125,7 @@ comments:
 #   "nav" would be set on the right side. Two-level nav links available
 navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
-  expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
+  expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.6/layout/overview/
   brand:
     title   :  Home # Title in navbar
     url     :  # default["url/baseurl"]
@@ -131,7 +160,7 @@ footer:
   links:
     - label : Repo on Github # Label
       icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
+      url   : https://github.com/dieghernan/chulapa-gem # A link or email: https://twitter.com/jack, mail@example.com
     - label: "RSS"
       icon: "fa fa-rss"
       url:  "./atom.xml"
@@ -140,15 +169,26 @@ footer:
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  # - url: 'https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&display=swap'
 
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
   skin         :  listen # Optional predefined skins
   autothemer    :  false # Bool: Use autotheming
+  # vars:
+  #   font-family-base: "Rubik, sans-serif"
+  #   headings-font-family: "Raleway, sans-serif"
+  # For more Sass variables, see docs/variable-dictionary.
   
     
+# Optional second skin (see docs/22-choose-skin).
+# chulapa-skin-dark:
+#   skin: gitdev-dark
+#   highlight: github.dark
+#   autothemer: false
+#   vars: {}
+
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
 # Blog pagination: on this site /blog/index.html. https://jekyllrb.com/docs/pagination/
@@ -164,6 +204,14 @@ collections:
 collections_dir     : 
 permalink           : /:year:month:day_:title/
 
+
+# Optional series map used by the series navigation snippet.
+# Set each series label here and use its ID with a unique integer order in each page's front matter.
+# series:
+#   first-site:
+#     label: First-site guide
+#     part_label: Part
+#     index_label: Series index
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
@@ -192,6 +240,9 @@ defaults:
       show_tags         : true
       show_categories   : true
       show_author       : true
+      # Enable a citation block on every post (see docs/04-layouts#make-a-post-citable).
+      # citation:
+      #   type: post-weblog
       show_breadcrumb   : true
       breadcrumb_list   :
         - label: Blog
@@ -209,7 +260,16 @@ defaults:
       breadcrumb_list   :
         - label: Cheatsheets
           url: /cheatsheets
+  # Assign a group to gallery images (see docs/29-add-gallery).
+  # - scope:
+  #     path: "assets/img/gallery"
+  #   values:
+  #     image_col: gallery
 
+# D.4. Optional jekyll-feed plugin (see docs/57-jekyll-feed).
+# Install and enable jekyll-feed separately. Use a path distinct from the theme's feeds.
+# feed:
+#   path: /feed.xml
 
 # XX. Other settings - no need to modify
 # HTML Compression
@@ -224,6 +284,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-remote-theme
+  # - jekyll-feed # Enable only if you use the separate feed plugin.
 
 
 # Exclude these files from production site
