@@ -5,12 +5,13 @@ const algoliaClient = algoliasearch(
 
 const searchClient = {
   search(requests) {
-    if (requests.every(({ params }) => !params.query)) {
+    if (requests.every(({ params }) => (params.query || '').trim().length < 2)) {
       return Promise.resolve({
-        results: requests.map(() => ({
+        results: requests.map(({ params }) => ({
           hits: [],
           nbHits: 0,
           nbPages: 0,
+          query: params.query || '',
         })),
       });
     }
@@ -38,11 +39,17 @@ function imgurl(p1) {
 }
 
 function parsecontent(hit) {
-  if (hit.html === undefined){
-    return " "
-  } else {
-    return hit._highlightResult.html.value
-  }
+  if (hit.html === undefined) return " ";
+  const content = hit._highlightResult?.html?.value ?? hit.html ?? '';
+  const excerpt = document.createElement('template');
+  excerpt.innerHTML = content;
+  const pageUrl = new URL(resultUrl(hit.url), "https://dieghernan.github.io/chulapa-gem/");
+  excerpt.content.querySelectorAll('a[href]').forEach(link => {
+    const href = link.getAttribute('href').trim();
+    if (!href || /^(?:[a-z][a-z\d+.-]*:|\/)/i.test(href)) return;
+    link.setAttribute('href', new URL(href, pageUrl).href);
+  });
+  return excerpt.innerHTML;
 }
 function parsetitle(hit) {
   if (hit.title === undefined){
@@ -82,7 +89,7 @@ const hitTemplate = function(hit) {
           </div>
           <div class="row mt-2">
           <div class="col">
-          <p>${content}</p>
+          <div class="small border-left pl-3">${content}</div>
           </div>
           </div>
           <hr>
@@ -103,7 +110,7 @@ const hitTemplate = function(hit) {
     </div>
     <div class="row mt-2">
     <div class="col">
-    <p>${content}</p>
+    <div class="small border-left pl-3">${content}</div>
     </div>
     </div>
     <hr>
@@ -132,11 +139,10 @@ search.addWidgets([
     container: '#hits',
     escapeHTML: false,
     templates: {
-      empty: `
-        {{#query}}
-          <h6 class="text-center">No results found</h6>
-        {{/query}}
-      `,
+      empty(results) {
+        if ((results.query || '').trim().length < 2) return '';
+        return '<h6 class="text-center">No results found</h6>';
+      },
       item: hitTemplate
     },
   }),
